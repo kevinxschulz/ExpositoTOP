@@ -1,0 +1,62 @@
+\doxysection{es.\+ull.\+esit.\+utilities.\+Power\+Set\texorpdfstring{$<$}{<} E \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set}{}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set}\index{es.ull.esit.utilities.PowerSet$<$ E $>$@{es.ull.esit.utilities.PowerSet$<$ E $>$}}
+
+
+Utility class for generating all subsets (power set) of a given set.  
+
+
+
+
+Inheritance diagram for es.\+ull.\+esit.\+utilities.\+Power\+Set\texorpdfstring{$<$}{<} E \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for es.\+ull.\+esit.\+utilities.\+Power\+Set\texorpdfstring{$<$}{<} E \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a6b7dcc9f679ec5fd47c9267e00b35750}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a6b7dcc9f679ec5fd47c9267e00b35750} 
+{\bfseries Power\+Set} (Set$<$ E $>$ set)
+\item 
+\Hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_ad366758e2b310bc9875b469b73940535}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_ad366758e2b310bc9875b469b73940535} 
+boolean {\bfseries has\+Next} ()
+\item 
+\Hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_abd2d06c8f0f04e077db91eedebf76e40}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_abd2d06c8f0f04e077db91eedebf76e40} 
+Set$<$ E $>$ {\bfseries next} ()
+\item 
+\Hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a1e90f61053643b887dd9ff82f4a367c4}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a1e90f61053643b887dd9ff82f4a367c4} 
+void {\bfseries remove} ()
+\item 
+\Hypertarget{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a3f26282fcfa1c64e6a3c8caf19f53d3b}\label{classes_1_1ull_1_1esit_1_1utilities_1_1_power_set_a3f26282fcfa1c64e6a3c8caf19f53d3b} 
+Iterator$<$ Set$<$ E $>$ $>$ {\bfseries iterator} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Utility class for generating all subsets (power set) of a given set. 
+
+This generic class implements both Iterator and Iterable interfaces to enumerate all possible subsets of a provided set. It uses a Bit\+Set to efficiently track subset membership and supports iteration over the power set. Useful for combinatorial algorithms and exhaustive search tasks.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em E} & Type of elements in the set. \\
+\hline
+\end{DoxyTemplParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/es/ull/esit/utilities/Power\+Set.\+java\end{DoxyCompactItemize}

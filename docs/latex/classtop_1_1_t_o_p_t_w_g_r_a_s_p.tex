@@ -1,0 +1,65 @@
+\doxysection{top.\+TOPTWGRASP Class Reference}
+\hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p}{}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p}\index{top.TOPTWGRASP@{top.TOPTWGRASP}}
+
+
+Implements the GRASP metaheuristic for solving \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} instances.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_af0ff5000bf59464aaf630ba7d1753b29}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_af0ff5000bf59464aaf630ba7d1753b29} 
+{\bfseries TOPTWGRASP} (\mbox{\hyperlink{classtop_1_1_t_o_p_t_w_solution}{TOPTWSolution}} sol)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a11242fc809f6a16ff81136c4785fdc3e}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a11242fc809f6a16ff81136c4785fdc3e} 
+void {\bfseries GRASP} (int max\+Iterations, int max\+Size\+RCL)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a2c07bc597fa781b81a53ad1017e24a4f}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a2c07bc597fa781b81a53ad1017e24a4f} 
+int {\bfseries aleatory\+Selection\+RCL} (int max\+TRCL)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_aa921b046fab55b437ea10e5cc286c014}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_aa921b046fab55b437ea10e5cc286c014} 
+int {\bfseries fuzzy\+Selection\+Best\+FDRCL} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a717d4390dfb843bed804afb598e27a87}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a717d4390dfb843bed804afb598e27a87} 
+int {\bfseries fuzzy\+Selection\+Alpha\+Cut\+RCL} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl, double alpha)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ade97c51a7d20660d7d306b756b4a6302}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ade97c51a7d20660d7d306b756b4a6302} 
+void {\bfseries compute\+Greedy\+Solution} (int max\+Size\+RCL)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_adaccdd26e4ad89ffb3e86c780dcd90d7}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_adaccdd26e4ad89ffb3e86c780dcd90d7} 
+void {\bfseries update\+Solution} (double\mbox{[}$\,$\mbox{]} candidate\+Selected, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ad3b1516f784d040517fd008a5ed40361}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ad3b1516f784d040517fd008a5ed40361} 
+Array\+List$<$ double\mbox{[}$\,$\mbox{]}$>$ {\bfseries comprehensive\+Evaluation} (Array\+List$<$ Integer $>$ customers, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a4c37722144024730a440f34343530d2c}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a4c37722144024730a440f34343530d2c} 
+\mbox{\hyperlink{classtop_1_1_t_o_p_t_w_solution}{TOPTWSolution}} {\bfseries get\+Solution} ()
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a01595711790fbdceebe112f930ff7f02}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a01595711790fbdceebe112f930ff7f02} 
+void {\bfseries set\+Solution} (\mbox{\hyperlink{classtop_1_1_t_o_p_t_w_solution}{TOPTWSolution}} solution)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a52f508173fa05609d4bf7db92111a3b8}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a52f508173fa05609d4bf7db92111a3b8} 
+int {\bfseries get\+Solution\+Time} ()
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a88f5adcd791131b1d8da3dc848d80701}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a88f5adcd791131b1d8da3dc848d80701} 
+void {\bfseries set\+Solution\+Time} (int solution\+Time)
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ae0fad47956718e9e96ee5fb6022d9f5b}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_ae0fad47956718e9e96ee5fb6022d9f5b} 
+double {\bfseries get\+Max\+Score} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a4319fa91e2578bb9b5570dc1af7b6f3b}\label{classtop_1_1_t_o_p_t_w_g_r_a_s_p_a4319fa91e2578bb9b5570dc1af7b6f3b} 
+static double {\bfseries NO\+\_\+\+EVALUATED} = -\/1.\+0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implements the GRASP metaheuristic for solving \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} instances. 
+
+This class provides methods for constructing and improving solutions to the Team Orienteering Problem with Time Windows (\doxylink{classtop_1_1_t_o_p_t_w}{TOPTW}) using the Greedy Randomized Adaptive Search Procedure (GRASP). It includes routines for greedy randomized construction, candidate selection (including fuzzy logic and alpha-\/cut strategies), and solution evaluation. The class supports iterative optimization, restricted candidate list management, and integration with solution and problem data. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/top/TOPTWGRASP.\+java\end{DoxyCompactItemize}

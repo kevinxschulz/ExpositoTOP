@@ -1,0 +1,45 @@
+\doxysection{top.\+TOPTWReader Class Reference}
+\hypertarget{classtop_1_1_t_o_p_t_w_reader}{}\label{classtop_1_1_t_o_p_t_w_reader}\index{top.TOPTWReader@{top.TOPTWReader}}
+
+
+Utility class for reading and parsing \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} problem instances from files.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classtop_1_1_t_o_p_t_w}{TOPTW}} \mbox{\hyperlink{classtop_1_1_t_o_p_t_w_reader_abad17029fc8928818483c5053dde0fa2}{read\+Problem}} (String file\+Path)
+\begin{DoxyCompactList}\small\item\em Reads a \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} problem instance from a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Utility class for reading and parsing \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} problem instances from files. 
+
+This class provides static methods to load Team Orienteering Problem with Time Windows (\doxylink{classtop_1_1_t_o_p_t_w}{TOPTW}) instances from a specified file path. It parses the input file, initializes the problem data, and computes the distance matrix required for further processing. 
+
+\label{doc-func-members}
+\Hypertarget{classtop_1_1_t_o_p_t_w_reader_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classtop_1_1_t_o_p_t_w_reader_abad17029fc8928818483c5053dde0fa2}\index{top.TOPTWReader@{top.TOPTWReader}!readProblem@{readProblem}}
+\index{readProblem@{readProblem}!top.TOPTWReader@{top.TOPTWReader}}
+\doxysubsubsection{\texorpdfstring{readProblem()}{readProblem()}}
+{\footnotesize\ttfamily \label{classtop_1_1_t_o_p_t_w_reader_abad17029fc8928818483c5053dde0fa2} 
+\mbox{\hyperlink{classtop_1_1_t_o_p_t_w}{TOPTW}} top.\+TOPTWReader.\+read\+Problem (\begin{DoxyParamCaption}\item[{String}]{file\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Reads a \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} problem instance from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & Path to the input file containing the problem definition. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A \doxylink{classtop_1_1_t_o_p_t_w}{TOPTW} object initialized with the parsed data.
+\end{DoxyReturn}
+This method opens the specified file, reads the problem parameters and points of interest (POIs), sets their coordinates, service times, scores, and time windows, and calculates the distance matrix. If an error occurs during reading, the method prints the error and terminates the program. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/top/TOPTWReader.\+java\end{DoxyCompactItemize}

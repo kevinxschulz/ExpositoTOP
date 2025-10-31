@@ -1,0 +1,21 @@
+# ================
+# Maven / Build
+# ================
+target/
+build/
+*.class
+*.log
+
+# ================
+# IDE / Editor
+# ================
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/private/
+
+# ================
+# macOS system files
+# ================
+.DS_Store
